@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Wireshark Network Traffic Analysis Lab
+# 🕵️‍♂️ Analyze Network Traffic with Wireshark
 
 This repository contains a guided walkthrough of a Wireshark lab focused on analyzing network traffic at multiple layers of the OSI model. By following these steps, you can learn how to identify network behavior, analyze protocols, and verify compliance with standard network configurations.
 
