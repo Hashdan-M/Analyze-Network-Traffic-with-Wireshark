@@ -178,18 +178,6 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 ---
 
-## 📂 Suggested Repo Structure
-
-```
-/screenshots/
-  step1_open-wireshark.png
-  step2_frame1.png
-  ...
-README.md (this file)
-Wireshark-Lab-Questions.docx (optional)
-```
-
----
 
 ## 💼 Why This Lab Matters
 
