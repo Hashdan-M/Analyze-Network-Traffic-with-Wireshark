@@ -71,8 +71,6 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 ARP is used to resolve the MAC address of a host from its IP address.
 
-📸 *Insert screenshot showing ARP header info*
-
 ---
 
 ### 🔹 Step 5: Review IPv4 Packet Structure
@@ -83,7 +81,7 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 This marks the transition from the link layer to the network layer.
 
-📸 *Insert screenshot of IP header structure*
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w7.PNG"/></a>   
 
 ---
 
@@ -97,13 +95,16 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 DNS uses UDP because it is a fast, connectionless protocol.
 
-📸 *Insert screenshot showing UDP and DNS request/response*
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w8.PNG"/></a>   
 
 ---
 
 ### 🔹 Step 7: Analyze TCP Handshake
 
 1. Select **Frame #5**, the start of a **TCP handshake**.
+
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w9.PNG"/></a>   
+
    - Look for the **SYN** flag.
    - Source port is a random client port (e.g., `49920`).
    - Destination port is `80` (HTTP).
@@ -111,8 +112,6 @@ You are setting up an employee’s laptop for remote work. To support and secure
 3. In **Frame #7**, confirm the final **ACK** completes the 3-way handshake.
 
 📘 TCP provides reliable, ordered delivery using handshakes and acknowledgments.
-
-📸 *Insert screenshots of the 3 handshake frames*
 
 ---
 
@@ -124,8 +123,6 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 HTTP in this capture is not encrypted — you can read the request and response content.
 
-📸 *Insert screenshot showing HTTP GET and server response*
-
 ---
 
 ### 🔹 Step 9: Multiple TCP Sessions
@@ -133,8 +130,6 @@ You are setting up an employee’s laptop for remote work. To support and secure
 1. Examine **Frame #8** — this begins a second TCP handshake.
 2. Note the use of a new **client source port** (e.g., `49921`).
 3. This shows how multiple TCP sessions may run in parallel to the same server.
-
-📸 *Insert screenshot showing second TCP connection initiation*
 
 ---
 
@@ -146,20 +141,21 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 The router (192.168.0.1) resolves to a name, but the client does not.
 
-📸 *Insert screenshot showing DNS query details*
-
 ---
 
 ### 🔹 Step 11: Inspect Remote Traffic (neverssl.com)
 
 1. Scroll to around **Frame #216** to find a DNS request for **neverssl.com**.
 2. Record the IP address from the response: `34.223.124.45`.
+
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w10.PNG"/></a>   
+   
 3. Select **Frame #222** to analyze the destination MAC.
 4. Verify that the packet is addressed to the **router’s MAC address**, not directly to the external host.
 
 📘 The client sends traffic to the router (default gateway), which then forwards it to the Internet.
 
-📸 *Insert screenshot of external traffic routing*
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w11.PNG"/></a>   
 
 ---
 
