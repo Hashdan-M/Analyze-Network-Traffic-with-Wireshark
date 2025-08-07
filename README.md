@@ -1,4 +1,5 @@
 <img src="https://kings-guard.com/wp-content/uploads/2025/01/a1582c33-3c8a-451b-851d-704d2657f509.jpeg">
+
 # 🕵️‍♂️ Analyze Network Traffic with Wireshark
 
 This repository contains a guided walkthrough of a Wireshark lab focused on analyzing network traffic at multiple layers of the OSI model. By following these steps, you can learn how to identify network behavior, analyze protocols, and verify compliance with standard network configurations.
