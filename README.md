@@ -27,7 +27,7 @@ You are setting up an employee’s laptop for remote work. To support and secure
 2. Navigate to `File > Open`, and select the file named `packetcap` from the Downloads folder.
 3. Maximize the Wireshark window for better visibility.
 
-<img src="(https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w1.PNG)"/></a>
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w1.PNG"/></a>
 
 ---
 
