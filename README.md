@@ -39,7 +39,7 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 📘 This confirms that the link layer is using **Ethernet II**.
 
-📸 *Insert screenshot showing ARP protocol and Ethernet encapsulation*
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w3.PNG"/></a>
 
 ---
 
@@ -47,12 +47,13 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 1. Expand the **Ethernet II** section to find the **Source MAC address**.
 2. It should read: `00:15:5d:01:65:67`.
+
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w4.PNG"/></a>
+   
 3. Confirm that this frame is an **ARP request**.
 4. Select **Frame #2**, and verify it is the **ARP reply**, where:
    - The source and destination MAC addresses are reversed.
    - The reply provides the MAC address of the client.
-
-📸 *Insert screenshot showing ARP request and reply with MACs*
 
 ---
 
@@ -60,8 +61,13 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 1. Return to **Frame #1** and expand the **ARP (Request)** section.
 2. Check the **target MAC address** — it should be all zeros (broadcast).
+
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w5.PNG"/></a>
+   
 3. Select **Frame #2** again and expand the **ARP (Reply)** section.
 4. Confirm the MAC address for `192.168.0.236` is: `00:15:5d:00:66:77`.
+
+<img src="https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w6.PNG"/></a>   
 
 📘 ARP is used to resolve the MAC address of a host from its IP address.
 
