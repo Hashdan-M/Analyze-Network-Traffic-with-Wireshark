@@ -27,7 +27,7 @@ You are setting up an employee’s laptop for remote work. To support and secure
 2. Navigate to `File > Open`, and select the file named `packetcap` from the Downloads folder.
 3. Maximize the Wireshark window for better visibility.
 
-<img src="[https://github.com/Hashdan-M/Tenable-Nessus-Scan-and-Remediation/blob/2629bbb0b4b59d4dcd5e883414399cc27f433424/Nessus/ipconfig.PNG](https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w1.PNG)"/></a>
+<img src="(https://github.com/Hashdan-M/Analyze-Network-Traffic-with-Wireshark/blob/main/Wireshark/w1.PNG)"/></a>
 
 ---
 
