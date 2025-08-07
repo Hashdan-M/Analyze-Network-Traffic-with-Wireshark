@@ -23,10 +23,9 @@ You are setting up an employee’s laptop for remote work. To support and secure
 
 ### 🔹 Step 1: Open Wireshark and Load the Capture
 
-1. Sign in to the **LAPTOP VM** as user `Bobby` (Password: `Pa$$w0rd`).
-2. Open **Wireshark** using the desktop shortcut.
-3. Navigate to `File > Open`, and select the file named `packetcap` from the Downloads folder.
-4. Maximize the Wireshark window for better visibility.
+1. Open **Wireshark** using the desktop shortcut.
+2. Navigate to `File > Open`, and select the file named `packetcap` from the Downloads folder.
+3. Maximize the Wireshark window for better visibility.
 
 📸 *Insert screenshot of Wireshark with the capture loaded*
 
